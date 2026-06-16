@@ -8,7 +8,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <style>
-        /* ВСЕ СТИЛИ ОСТАВЛЯЕМ КАК БЫЛО */
         :root {
             --bg-card: rgba(255, 255, 255, 0.52);
             --bg-card-alt: rgba(255, 255, 255, 0.48);
@@ -298,7 +297,6 @@
             <button class="btn-unfold" id="btnUnfoldToggle">Тык!</button>
         </div>
         <div id="mainContent">
-            <!-- Весь контент, который был ранее — все тексты, списки, блоки. Оставляем как есть -->
             <div class="greeting-block">
                 <p>Дорогой наш, любимый человек…</p>
                 <p>Если ты читаешь это — знай: мы очень ценим, что ты есть в нашей жизни.</p>
@@ -313,91 +311,31 @@
             </div>
             <details class="collapsible">
                 <summary><span class="summary-icon">🏕️</span> Что нас ждёт?</summary>
-                <div class="details-content">
-                    <p>Только представь:</p>
-                    <p>🛶 всей нашей большой дружной семьёй мы идём по реке на байдарках, катамаранах и сапах</p>
-                    <p>🌿 наслаждаемся спокойствием и красотой природы</p>
-                    <p>🏕️ вместе строим целый город из палаток на берегу</p>
-                    <p>🔥 разводим огонь и собираемся вокруг него, как у очага</p>
-                    <p>🎵 поём самые душевные любимые песни</p>
-                    <p>🍲 готовим на костре и вкусно кушаем</p>
-                    <p class="bold-accent" style="text-align:center; margin-top:12px;">Символично, уютно и прекрасно.</p>
-                </div>
+                <div class="details-content"><p>Только представь:</p><p>🛶 всей нашей большой дружной семьёй мы идём по реке на байдарках, катамаранах и сапах</p><p>🌿 наслаждаемся спокойствием и красотой природы</p><p>🏕️ вместе строим целый город из палаток на берегу</p><p>🔥 разводим огонь и собираемся вокруг него, как у очага</p><p>🎵 поём самые душевные любимые песни</p><p>🍲 готовим на костре и вкусно кушаем</p><p class="bold-accent" style="text-align:center; margin-top:12px;">Символично, уютно и прекрасно.</p></div>
             </details>
             <details class="collapsible">
                 <summary><span class="summary-icon">⭐</span> Почему именно эти даты?</summary>
-                <div class="details-content">
-                    <p>Мы выбрали самые лучшие выходные в году, чтобы путешествие было максимально комфортным.</p>
-                    <p>В начале августа ещё тепло, но насекомые уже не беспокоят. А ночью на небе отлично видны звёзды.</p>
-                </div>
+                <div class="details-content"><p>Мы выбрали самые лучшие выходные в году, чтобы путешествие было максимально комфортным.</p><p>В начале августа ещё тепло, но насекомые уже не беспокоят. А ночью на небе отлично видны звёзды.</p></div>
             </details>
             <details class="collapsible">
                 <summary><span class="summary-icon">🎒</span> Что взять с собой (список-памятка)</summary>
-                <div class="details-content">
-                    <p>На нашу свадьбу не придётся подбирать наряд. Но кое-что прихватить всё же нужно.</p>
-                    <p><em>P.S. : Плохой погоды не бывает. Бывает плохое снаряжение.</em></p>
-                    <div class="packing-item"><span class="packing-label">👕 Одежда</span><span class="packing-desc">Комфортный комплект для нахождения на воде и на берегу. Штаны/шорты, футболка, кофта, ветровка.</span></div>
-                    <div class="packing-item"><span class="packing-label">👟 Обувь</span><p class="packing-desc">На судне — сапоги/сланцы (кроксы).</p><p class="packing-desc" style="margin-top:4px;">На суше — кроссовки/ботинки.</p></div>
-                    <div class="packing-item"><span class="packing-label">🔄 Запасной комплект одежды (вместе с бельем)</span><span class="packing-desc">Если промокнешь, будет во что переодеться.</span></div>
-                    <div class="packing-item"><span class="packing-label">🧥 Утепленная одежда на вечер</span></div>
-                    <div class="packing-item"><span class="packing-label">🌙 Отдельный комплект для сна</span><span class="packing-desc">Если нужен</span></div>
-                    <div class="packing-item"><span class="packing-label">🧦 Носки запасные</span><span class="packing-desc">2-3 пары</span></div>
-                    <div class="packing-item"><span class="packing-label">🧤 Перчатки ХБ или перчатки для гребли</span><span class="packing-desc">Чтобы не было мозолей от весла.</span></div>
-                    <div class="packing-item"><span class="packing-label">🧢 Головной убор</span><span class="packing-desc">Кепка, панама, бандана (сомбреро не надо, его сдует ветром).</span></div>
-                    <div class="packing-item"><span class="packing-label">🩱 Купальный костюм</span></div>
-                    <div class="packing-item"><span class="packing-label">🕶️ Солнцезащитные очки</span></div>
-                    <div class="packing-item"><span class="packing-label">🌧️ Дождевик</span><span class="packing-desc">Если все его возьмут — тучи нас испугаются и обойдут стороной. Проверено.</span></div>
-                    <div class="packing-item"><span class="packing-label">🔦 Фонарик</span><span class="packing-desc">Налобный удобнее</span></div>
-                    <div class="packing-item"><span class="packing-label">🧴 Крем от загара</span></div>
-                    <div class="packing-item"><span class="packing-label">🎒 Рюкзак/сумка под вещи</span><span class="packing-desc">На месте выдадим гермомешки для сухости и сохранности.</span></div>
-                    <div class="packing-item"><span class="packing-label">🛏️ Коврик туристический, спальный мешок и… хопка (мини-коврик для попы)</span><span class="packing-desc">Если такого нет, то обязательно сообщите нам заранее. Мы захватим для вас комплект.</span></div>
-                    <div class="packing-item"><span class="packing-label">🍽️ Тарелка, чашка, ложка</span><span class="packing-desc">(фарфоровую посуду лучше оставить дома)</span></div>
-                    <div class="packing-item"><span class="packing-label">💧 Бутылка с водой или термос с чаем</span></div>
-                    <div class="packing-item"><span class="packing-label">🧼 Предметы личной гигиены</span><span class="packing-desc">Зубная щётка, паста, туалетная бумага и т.д.</span></div>
-                    <div class="packing-item"><span class="packing-label">📱 Телефон</span><span class="packing-desc">пауэр-банк, фотоаппарат (если хочется). Будем благодарны за фотографии.</span></div>
-                    <div class="packing-item"><span class="packing-label">⛺ Палатка</span><span class="packing-desc">Если есть и удобно взять свою.</span></div>
-                    <div class="packing-item"><span class="packing-label">💊 Аптечка</span><span class="packing-desc">Лекарства от хронических заболеваний/ часто употребляемые. Перед сплавом сообщите нам о хронических заболеваниях и необходимых действиях в случае обострения!</span></div>
-                    <div class="packing-item"><span class="packing-label">🎁 С нас</span><span class="packing-desc">Повод для праздника. Снаряжение (плавсредства, спасжелеты, гермомешки, палатки, спальники, коврики, костровые принадлежности и т.д.). Много вкусной еды.</span></div>
-                    <p style="margin-top:12px; font-weight:900; font-size:1.1rem;">Самое главное — приходите с хорошим настроением. И вспомните любимые песни, чтобы спеть их вместе.</p>
-                </div>
+                <div class="details-content"><p>На нашу свадьбу не придётся подбирать наряд. Но кое-что прихватить всё же нужно.</p><p><em>P.S. : Плохой погоды не бывает. Бывает плохое снаряжение.</em></p><div class="packing-item"><span class="packing-label">👕 Одежда</span><span class="packing-desc">Комфортный комплект для нахождения на воде и на берегу. Штаны/шорты, футболка, кофта, ветровка.</span></div><div class="packing-item"><span class="packing-label">👟 Обувь</span><p class="packing-desc">На судне — сапоги/сланцы (кроксы).</p><p class="packing-desc" style="margin-top:4px;">На суше — кроссовки/ботинки.</p></div><div class="packing-item"><span class="packing-label">🔄 Запасной комплект одежды (вместе с бельем)</span><span class="packing-desc">Если промокнешь, будет во что переодеться.</span></div><div class="packing-item"><span class="packing-label">🧥 Утепленная одежда на вечер</span></div><div class="packing-item"><span class="packing-label">🌙 Отдельный комплект для сна</span><span class="packing-desc">Если нужен</span></div><div class="packing-item"><span class="packing-label">🧦 Носки запасные</span><span class="packing-desc">2-3 пары</span></div><div class="packing-item"><span class="packing-label">🧤 Перчатки ХБ или перчатки для гребли</span><span class="packing-desc">Чтобы не было мозолей от весла.</span></div><div class="packing-item"><span class="packing-label">🧢 Головной убор</span><span class="packing-desc">Кепка, панама, бандана (сомбреро не надо, его сдует ветром).</span></div><div class="packing-item"><span class="packing-label">🩱 Купальный костюм</span></div><div class="packing-item"><span class="packing-label">🕶️ Солнцезащитные очки</span></div><div class="packing-item"><span class="packing-label">🌧️ Дождевик</span><span class="packing-desc">Если все его возьмут — тучи нас испугаются и обойдут стороной. Проверено.</span></div><div class="packing-item"><span class="packing-label">🔦 Фонарик</span><span class="packing-desc">Налобный удобнее</span></div><div class="packing-item"><span class="packing-label">🧴 Крем от загара</span></div><div class="packing-item"><span class="packing-label">🎒 Рюкзак/сумка под вещи</span><span class="packing-desc">На месте выдадим гермомешки для сухости и сохранности.</span></div><div class="packing-item"><span class="packing-label">🛏️ Коврик туристический, спальный мешок и… хопка (мини-коврик для попы)</span><span class="packing-desc">Если такого нет, то обязательно сообщите нам заранее. Мы захватим для вас комплект.</span></div><div class="packing-item"><span class="packing-label">🍽️ Тарелка, чашка, ложка</span><span class="packing-desc">(фарфоровую посуду лучше оставить дома)</span></div><div class="packing-item"><span class="packing-label">💧 Бутылка с водой или термос с чаем</span></div><div class="packing-item"><span class="packing-label">🧼 Предметы личной гигиены</span><span class="packing-desc">Зубная щётка, паста, туалетная бумага и т.д.</span></div><div class="packing-item"><span class="packing-label">📱 Телефон</span><span class="packing-desc">пауэр-банк, фотоаппарат (если хочется). Будем благодарны за фотографии.</span></div><div class="packing-item"><span class="packing-label">⛺ Палатка</span><span class="packing-desc">Если есть и удобно взять свою.</span></div><div class="packing-item"><span class="packing-label">💊 Аптечка</span><span class="packing-desc">Лекарства от хронических заболеваний/ часто употребляемые. Перед сплавом сообщите нам о хронических заболеваниях и необходимых действиях в случае обострения!</span></div><div class="packing-item"><span class="packing-label">🎁 С нас</span><span class="packing-desc">Повод для праздника. Снаряжение (плавсредства, спасжелеты, гермомешки, палатки, спальники, коврики, костровые принадлежности и т.д.). Много вкусной еды.</span></div><p style="margin-top:12px; font-weight:900; font-size:1.1rem;">Самое главное — приходите с хорошим настроением. И вспомните любимые песни, чтобы спеть их вместе.</p></div>
             </details>
             <details class="collapsible">
                 <summary><span class="summary-icon">💫</span> Ещё пара наших пожеланий</summary>
-                <div class="details-content">
-                    <p>🍷 <span class="bold-accent">Про алкоголь</span></p>
-                    <p>Мы очень ценим, когда все на одной волне. И мы на 100% уверены: если довериться нашему тёплому покровительству, то без алкоголя будет веселее, душевнее и безопаснее. Поэтому у нас на свадьбе его не будет. Зато будет вкусный чай и другие напитки, будет красиво, и будет чем заняться. Спасибо, что понимаете и разделяете это с нами.</p>
-                    <p style="margin-top:12px;">✅ <span class="bold-accent">Подтверждение участия</span></p>
-                    <p>Пожалуйста, дайте нам знать, едете ли вы до <span class="bold-accent">10 июля</span>. <span class="bold-accent">Это важно</span>, чтобы мы заказали автобусы по количеству людей, а позже, закупили еду и подготовили снаряжение в необходимом объеме.</p>
-                </div>
+                <div class="details-content"><p>🍷 <span class="bold-accent">Про алкоголь</span></p><p>Мы очень ценим, когда все на одной волне. И мы на 100% уверены: если довериться нашему тёплому покровительству, то без алкоголя будет веселее, душевнее и безопаснее. Поэтому у нас на свадьбе его не будет. Зато будет вкусный чай и другие напитки, будет красиво, и будет чем заняться. Спасибо, что понимаете и разделяете это с нами.</p><p style="margin-top:12px;">✅ <span class="bold-accent">Подтверждение участия</span></p><p>Пожалуйста, дайте нам знать, едете ли вы до <span class="bold-accent">10 июля</span>. <span class="bold-accent">Это важно</span>, чтобы мы заказали автобусы по количеству людей, а позже, закупили еду и подготовили снаряжение в необходимом объеме.</p></div>
             </details>
             <details class="collapsible">
                 <summary><span class="summary-icon">📍</span> Где и когда?</summary>
-                <div class="details-content">
-                    <p>📍 <span class="bold-accent">Место встречи</span></p>
-                    <p>город Киров, Октябрьский проспект, 67. Рядом вход в бассейн «Родина».</p>
-                    <p>⏰ <span class="bold-accent">Отправляемся</span></p>
-                    <p>8 августа в 8:00.</p>
-                    <p>Очень просим быть вовремя. Лучше прийти на 10 минут раньше.</p>
-                    <p>🏁 <span class="bold-accent">Возвращаемся</span></p>
-                    <p>9 августа в 19:30.</p>
-                </div>
+                <div class="details-content"><p>📍 <span class="bold-accent">Место встречи</span></p><p>город Киров, Октябрьский проспект, 67. Рядом вход в бассейн «Родина».</p><p>⏰ <span class="bold-accent">Отправляемся</span></p><p>8 августа в 8:00.</p><p>Очень просим быть вовремя. Лучше прийти на 10 минут раньше.</p><p>🏁 <span class="bold-accent">Возвращаемся</span></p><p>9 августа в 19:30.</p></div>
             </details>
             <details class="collapsible">
                 <summary><span class="summary-icon">💍</span> Про регистрацию в ЗАГСе</summary>
-                <div class="details-content">
-                    <p>Регистрация пройдёт <span class="bold-accent">06.08.26</span> по адресу: город Киров, ул. Владимирская (Карла Маркса), 23.</p>
-                    <p><span class="bold-accent">Время — 10:20</span></p>
-                    <p>Она будет закрытой (неторжественной): мы просто выйдем из ЗАГСа. Но если вам хочется поздравить нас именно в этот день — будем рады увидеться и пообниматься.</p>
-                    <p class="bold-accent">Расписаться — это формальность. Настоящая свадьба будет в выходные.</p>
-                </div>
+                <div class="details-content"><p>Регистрация пройдёт <span class="bold-accent">06.08.26</span> по адресу: город Киров, ул. Владимирская (Карла Маркса), 23.</p><p><span class="bold-accent">Время — 10:20</span></p><p>Она будет закрытой (неторжественной): мы просто выйдем из ЗАГСа. Но если вам хочется поздравить нас именно в этот день — будем рады увидеться и пообниматься.</p><p class="bold-accent">Расписаться — это формальность. Настоящая свадьба будет в выходные.</p></div>
             </details>
             <details class="collapsible">
                 <summary><span class="summary-icon">🎁</span> Про подарки</summary>
-                <div class="details-content">
-                    <p>Самым ценным подарком станет ваша поддержка на пути к нашим общим мечтам. Мы очень хотим свою квартиру, путешествия, пианино... Будем безмерно благодарны за вклад <span class="bold-accent">в конверте</span> — это лучшая помощь в создании нашей семьи.</p>
-                    <p>Пожалуйста <span class="bold-accent">не дарите</span> нам <span class="bold-accent">цветы</span>. В сплаве с ними неудобно. А дома без нас кот - Стёпа цветами любоваться не будет, он их съест и будет грустить 🤮</p>
-                    <p><span class="bold-accent">У ЗАГСа их тоже дарить не нужно</span>. Спасибо за понимание!</p>
-                </div>
+                <div class="details-content"><p>Самым ценным подарком станет ваша поддержка на пути к нашим общим мечтам. Мы очень хотим свою квартиру, путешествия, пианино... Будем безмерно благодарны за вклад <span class="bold-accent">в конверте</span> — это лучшая помощь в создании нашей семьи.</p><p>Пожалуйста <span class="bold-accent">не дарите</span> нам <span class="bold-accent">цветы</span>. В сплаве с ними неудобно. А дома без нас кот - Стёпа цветами любоваться не будет, он их съест и будет грустить 🤮</p><p><span class="bold-accent">У ЗАГСа их тоже дарить не нужно</span>. Спасибо за понимание!</p></div>
             </details>
             <div class="content-block">
                 <p>Мы вас очень ждём! Не стесняйтесь задавать любые вопросы.</p>
@@ -424,7 +362,6 @@
         <div class="modal-dialog">
             <button class="modal-close" id="btnModalClose">✕</button>
             <div class="modal-title">Подтверждение участия</div>
-            <!-- ВСТАВЛЯЕМ ФОРМУ ЯНДЕКСА -->
             <script src="https://forms.yandex.ru/_static/embed.js"></script>
             <iframe src="https://forms.yandex.ru/u/6a3087b884227c0decc40cac?iframe=1" frameborder="0" name="ya-form-6a3087b884227c0decc40cac" width="100%" style="min-height: 520px;"></iframe>
         </div>
